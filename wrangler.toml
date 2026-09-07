@@ -1,0 +1,6 @@
+name = "yuyuan-lock"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# 下面三个在 Cloudflare 后台 Workers → 你的 Worker → Settings → Variables 里填(TO_EMAIL / LOCK_TOKEN 可填明文,RESEND_API_KEY 建议加密):
+# RESEND_API_KEY, TO_EMAIL, LOCK_TOKEN
